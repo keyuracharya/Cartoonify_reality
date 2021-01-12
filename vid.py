@@ -11,7 +11,7 @@ result = True
 while(result):
     ret,img = videoCaptureObject.read()
     img=caart(img)
-    cv2.imshow("original",np.array(img))
+    cv2.imshow("cartoonized",np.array(img))
     out.write(img)
     if(cv2.waitKey(1) & 0xFF==ord('q')):
         break
