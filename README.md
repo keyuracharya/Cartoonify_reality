@@ -12,12 +12,15 @@ Even the basics of image processing if done properly can be handy which otherwis
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+What things you need to install the software 
 ```
 scipy 
 numpy 
 cv2
+```
+and how to install them
+```
+pip install -r requirements.txt
 ```
 
 ## Getting Started
